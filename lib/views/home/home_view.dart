@@ -36,7 +36,7 @@ class _HomeViewState extends State<HomeView> {
                   // ),
                   DropdownButton<String>(
                     value: dropdownValue,
-
+                   style: TextStyle(fontSize: 12),
                     // icon: const Icon(Icons.arrow_downward),
                     elevation: 16,
                     // style: const TextStyle(color: Colors.deepPurple),
@@ -60,13 +60,13 @@ class _HomeViewState extends State<HomeView> {
                   SizedBox(height: 16),
                   ToggleButtons(
                     children: <Widget>[
-                      Text('Mon'),
-                      Text('Tue'),
-                      Text('Wed'),
-                      Text('Thu'),
-                      Text('Fri'),
-                      Text('Sat'),
-                      Text('Sun'),
+                      Text('Mon', style: TextStyle(fontSize: 12),),
+                      Text('Tue', style: TextStyle(fontSize: 12),),
+                      Text('Wed', style: TextStyle(fontSize: 12),),
+                      Text('Thu', style: TextStyle(fontSize: 12),),
+                      Text('Fri', style: TextStyle(fontSize: 12),),
+                      Text('Sat', style: TextStyle(fontSize: 12),),
+                      Text('Sun', style: TextStyle(fontSize: 12),),
                     ],
                     onPressed: (int index) {
                       setState(() {
@@ -85,7 +85,7 @@ class _HomeViewState extends State<HomeView> {
                   SizedBox(height: 16),
                   // SizedBox(height: 700.0, child: BarChartSample1()),
                   // SizedBox(height: 300.0, child: TimeSeriesBar.withSampleData()),
-                  SizedBox(height: 300.0, child: VerticalBarLabelChart.withSampleData()),
+                  SizedBox(height: 200.0, child: VerticalBarLabelChart.withSampleData()),
                 ],
               ),
             )
