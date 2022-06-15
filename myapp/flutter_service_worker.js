@@ -9,11 +9,11 @@ const RESOURCES = {
 "assets/assets/logo.png": "e92d75da68b0db510c0ce50855b2de47",
 "assets/FontManifest.json": "2a69ce04a1cd18341f63e2d3c53ed7ca",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "2cdef68cbad3fba57be106bbe7aa3244",
+"assets/NOTICES": "3f9b8970495dbce62394c5dbdd241539",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "index.html": "5af89a181089aef313374093e4b4ffb6",
 "/": "5af89a181089aef313374093e4b4ffb6",
-"main.dart.js": "fd1c64c258be977d404c2bb8eed5f3cc",
+"main.dart.js": "80e579b5b0f39b92a09e3e98ed01c769",
 "version.json": "055a0f8c3075f8925d7972079390d93b"
 };
 
